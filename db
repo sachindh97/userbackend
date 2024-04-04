@@ -1,0 +1,7 @@
+CREATE TABLE `company`.`users` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NULL,
+  `username` VARCHAR(45) NULL,
+  `password` VARCHAR(100) NULL,
+  `isActive` TINYINT NULL,
+  PRIMARY KEY (`id`));
